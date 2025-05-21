@@ -1,40 +1,38 @@
 body, html {
-  height: 100%;
   margin: 0;
-  font-family: 'Georgia', serif;
+  padding: 0;
+  height: 100%;
+  font-family: 'Lora', serif;
   color: white;
-}
-
-body {
   background: url('bg.jpg') no-repeat center center fixed;
   background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: 'Lora', serif;
+  overflow: auto;
 }
 
 .overlay {
-  background: rgba(0, 0, 0, 0.5); /* semi-transparent black overlay */
-  padding: 2rem;
-  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+  padding: 2rem 1rem;
   max-width: 800px;
-  width: 90%;
+  margin: 0 auto;
   box-sizing: border-box;
-  backdrop-filter: blur(10px);
-  text-align: center; /* horizontal text alignment */
+  border-radius: 12px;
+  backdrop-filter: blur(6px);
+  margin-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .content {
-  color: #fff;
+  text-align: center;
 }
 
 .content h1 {
-  font-size: 2rem;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2.5rem;
   margin-bottom: 1.5rem;
 }
 
 .content p {
   line-height: 1.6;
+  font-size: 1.1rem;
   margin-bottom: 1rem;
 }
