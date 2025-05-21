@@ -1,0 +1,40 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Georgia', serif;
+  color: white;
+}
+
+body {
+  background: url('bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lora', serif;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.5); /* semi-transparent black overlay */
+  padding: 2rem;
+  border-radius: 10px;
+  max-width: 800px;
+  width: 90%;
+  box-sizing: border-box;
+  backdrop-filter: blur(10px);
+  text-align: center; /* horizontal text alignment */
+}
+
+.content {
+  color: #fff;
+}
+
+.content h1 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.content p {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
